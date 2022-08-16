@@ -1,0 +1,11 @@
+.video-item {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+
+/* there is .item to be more specific. */
+/* without it, it won't work because there's already a max-width property that's a priority */
+.video-item.item img {
+    max-width: 180px;
+}
